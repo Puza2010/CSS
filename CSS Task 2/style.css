@@ -1,57 +1,54 @@
-body {
-	background-color: #CCC;
-	margin: auto;
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-li {
-	margin: 0;
-	padding: 0;
+* {
+	box-sizing: border-box;	
 }	
 
-ul {
-	margin: 0;
-	padding: 0;
-	display: none;
-	position: absolute;
-	background-color: black;
-	height: 50px;
-	line-height: 50px;
-	width: 200px;
-}	
-
-a {
-	text-decoration: none;
+button {
+	margin-top: 20px;
+	padding: 15px 40px;
+	background-color: #4577ED;
+	font-size; 20px;
 	color: white;
+	font-family: 'Quicksand', sans-serif;
+	border: none;
 }	
 
-nav {
-	padding-left: 20px;
-	background-color: black;
+.jumbotron {
 	width: 100%;
-}	
-
-nav li {
-	display: inline-block;
-	color: #CCC;
-	height: 50px;
-	line-height: 50px;
-	width: 200px;
+	height: 100vh;
+	padding-top: 42vh;
 	text-align: center;
+	background-image: url("http://kodilla.com/static/lessons/blue-mountain.jpg");
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+}	
+
+.jumbotron h1 {
+	margin: 0;
+	font-size: 38px;
+	font-weight: 500;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
 }
 
-nav li ul li {
-	background-color: black;
-}	
-
-li:hover {
-	background-color: #637084;
+.jumbotron button {
+	cursor: pointer;
+	transition: .3s;
 }
 
-nav li:hover ul {
-	display: block;
-	background-color: black;
+.gallery img {
+	float: left;
+	width: 25%;
 }	
 
-nav li ul li:hover {
-	background-color: #637084;
-}	
+button:hover {
+	background-color: #7E9FED
+}
+
+.gallery img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	transition: .5s;
+}

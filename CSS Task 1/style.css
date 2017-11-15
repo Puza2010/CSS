@@ -1,0 +1,57 @@
+body {
+	background-color: #CCC;
+	margin: auto;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+}	
+
+ul {
+	margin: 0;
+	padding: 0;
+	display: none;
+	position: absolute;
+	background-color: black;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+}	
+
+a {
+	text-decoration: none;
+	color: white;
+}	
+
+nav {
+	padding-left: 20px;
+	background-color: black;
+	width: 100%;
+}	
+
+nav li {
+	display: inline-block;
+	color: #CCC;
+	height: 50px;
+	line-height: 50px;
+	width: 200px;
+	text-align: center;
+}
+
+nav li ul li {
+	background-color: black;
+}	
+
+li:hover {
+	background-color: #637084;
+}
+
+nav li:hover ul {
+	display: block;
+	background-color: black;
+}	
+
+nav li ul li:hover {
+	background-color: #637084;
+}	
